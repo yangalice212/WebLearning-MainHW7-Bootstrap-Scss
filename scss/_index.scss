@@ -23,10 +23,11 @@
 .sold-out{
     position: relative;
     background: no-repeat center url(../img/appleC.png);
+    background-size: cover;
     p{
         position: absolute;
         top: 50%;
-        left: 40%;
+        left: 35%;
     }
     img{
         opacity: 0.5;
