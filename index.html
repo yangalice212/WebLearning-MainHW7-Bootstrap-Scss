@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>d’Perfume</title>
+    <meta name='description' content='香水網站'/>
+
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+    <script src="js/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+    <div class="container header">
+        <nav class="row navbar navbar-expand-lg navbar-light">
+            <h1 class="col-5 col-md-3 col-lg-2 logo navbar-brand mb-0"><a href="index.html">d’Perfume</a></h1>
+            <div class="mobile-show col-5 col-md-2 d-flex align-items-center justify-content-end pr-0">
+                <div class="mobile-cart mr-3">
+                    <a href=""><i class="fas fa-shopping-cart text-info"></i></a>
+                    <p class="cart-num text-white text-center bg-primary">3</p>
+                </div>
+                <button class="navbar-toggler border-0 btn" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            
+            <div class="collapse navbar-collapse col-md-6 justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav d-flex">
+                    <li class="nav-item d-flex align-items-center mr-10">
+                        <i class="fas fa-tshirt text-info"></i>
+                        <a class="nav-link text-info" href="product.html">Product</a>
+                    </li>
+                    <li class="nav-item d-flex align-items-center mr-10">
+                        <i class="fas fa-user text-info"></i>
+                        <a class="nav-link text-info" href="login.html">log in</a>
+                    </li>
+                    <li class="nav-item d-flex align-items-center mr-10">
+                        <i class="fas fa-heart text-info"></i>
+                        <a class="nav-link text-info" href="#">Wishlist</a>
+                    </li>
+                    <li class="nav-item d-flex align-items-center">
+                        <i class="fas fa-shopping-cart text-info"></i>
+                        <a class="nav-link text-info" href="#">Cart(3)</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container-fluid px-0 collapse navbar-collapse" id="navbarSupportedContent2">
+        <ul class="navbar-nav mr-auto d-flex justify-content-between">
+            <li class="nav-item bg-grayNav text-center border-bottom border-white">
+                <a class="nav-link text-white py-3" href="product.html">Product</a>
+            </li>
+            <li class="nav-item bg-grayNav text-center border-bottom border-white">
+                <a class="nav-link text-white py-3" href="#">Wishlist</a>
+            </li>
+            <li class="nav-item bg-grayNav text-center border-bottom border-white">
+                <a class="nav-link text-white py-3" href="#">Blog</a>
+            </li>
+            <li class="nav-item bg-grayNav text-center border-bottom border-white">
+                <a class="nav-link text-white py-3" href="#">Contact</a>
+            </li>
+            <li class="nav-item bg-grayNav text-center">
+                <a class="nav-link text-white py-3" href="login.html">Log in</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="container-fluid banner mb-6">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6"></div>
+                <div class="col-12 col-sm-6 text-white banner-text">
+                    <h2 class="h1">Prefume your day</h2>
+                    <p class="mb-3 h4 font-weight-normal">A perfume is like a piece of clothing, a message, a way of presenting oneself a costume that according to the person who
+                    wears it.</p>
+                    <button class="btn btn-outline-white text-white" onclick="location.href='product.html'" type="button">Shop now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mb-7 mb-md-6">
+        <div class="row product align-items-center flex-row-reverse">
+            <div class="col-12 col-xl-7 product-img">
+                <img src="img/chanel.png" alt="">
+            </div>
+            <div class="col-12 col-xl-4 product-info">
+                <h2>Gabrielle CHANEL</h2>
+                <p class="mb-3 h5 font-weight-normal">全新嗅覺體驗，花香四溢、明亮馥郁。結合茉莉、依蘭依蘭、橙花和最迷人的格拉斯晚香玉之花香，呈現出夢幻花香氣息。 極具女性特質的香奈兒嘉柏麗香水，專為光芒四射的她而生。</p>
+                <p><a href="#" class="text-secondary">查看更多</a></p>
+            </div>
+            <div class="col-xl-1"></div>
+        </div>
+    
+        <div class="row product align-items-center">
+            <div class="col-12 col-xl-7">
+                <img src="img/five.png" alt="">
+            </div>
+            <div class="col-12 col-xl-4 product-info justify-content-center">
+                <h2>Five O’clock Au Gingembre</h2>
+                <p class="mb-3 h5 font-weight-normal">生薑與溫醇的肉桂香、紅糖的香甜摻和成一氣，溫暖微辛的氣息反倒形成一股輕煙氤氳開來，還帶點微微煙醺感漫溢在整個鼻息之間，細聞之下,又還有溫溫淡淡的木香，溫和而暖心。</p>
+                <p><a href="#" class="text-secondary">查看更多</a></p>
+            </div>
+            <div class="col-xl-1"></div>
+        </div>
+    
+        <div class="row product align-items-center flex-row-reverse">
+            <div class="col-12 col-xl-7 product-img">
+                <img src="img/chanelN.png" alt="">
+            </div>
+            <div class="col-12 col-xl-4 product-info">
+                <h2>CHANEL N°5</h2>
+                <p class="mb-3 h5 font-weight-normal">N°5，女性魅力的極致精髓。散發柔美澄透的乙醛花束香氣。經典傳奇香氛，蘊藏於極簡設計的獨特瓶身。</p>
+                <p><a href="product-detail.html" class="text-secondary">查看更多</a></p>
+            </div>
+            <div class="col-xl-1"></div>
+    
+        </div>
+        <div class="row product align-items-center">
+            <div class="col-12 col-xl-7">
+                <img src="img/info.png" alt="">
+            </div>
+            <div class="col-12 col-xl-4 product-info">
+                <h4>1. <br> Levels of Preventive Maintenance Compliance</h4>
+                <p class="mb-8 mb-xl-9">The core idea of preventative maintenance is the performance of proactive actions
+                    against unscheduled downtime in order to identify potential defects before they evolve into
+                    something more severe.</p>
+                <h4>2. <br> Percentage of Planned Maintenance</h4>
+                <p class="mb-8 mb-xl-9">The planned maintenance percentage is the total planned maintenance time in your CMMS
+                    software over a date range over the total number of hours of a service performed by the technicians.
+                </p>
+                <h4>3. <br> Critical percentage of planned maintenance</h4>
+                <p class="mb-8 mb-xl-6">Calculating the critical percentage of planned maintenance will help you prioritize the
+                    most important operations that should be performed immediately.</p>
+                <button class="px-11 px-lg-4 btn btn-outline-black">Plan a free online training</button>
+            </div>
+            <div class="col-xl-1"></div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-gray py-7">
+        <div class="container">
+            <div class="card-deck">
+                <div class="card">
+                    <img src="img/poppy.png" class="card-img-top img-fluid" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title mb-1">Poppy & Barley</h4>
+                        <p class="card-text">Jo Malone</p>
+                        <div class="d-flex card-text justify-content-sm-center justify-content-md-start">
+                            <p class="mr-2 mb-0">NT$1,380</p>
+                            <del class="text-info">NT$1,580</del>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/bodywash.png" class="card-img-top img-fluid" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title mb-1">Body Wash</h4>
+                        <p class="card-text">Curology</p>
+                        <p class="card-text mb-0">NT$1,580</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="sold-out mb-2">
+                        <img src="img/gray.svg" class="card-img-top img-fluid" alt="">
+                        <p class="text-white mb-0 h4 font-weight-normal">Sold out</p>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title mb-1">Apple Cider Vinegar Capsule</h4>
+                        <p class="card-text">Tonik</p>
+                        <p class="card-text mb-0">NT$1,580</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container concept py-6">
+        <div class="row align-items-center">
+            <div class="col-12 col-md-8 concept-img">
+                <img class="img-fluid" src="img/concept.png" alt="">
+            </div>
+            <div class="col-12 col-md-4 concept-text">
+                <h3 class="font-weight-bold">Bottle-Recycling</h3>
+                <p class="h5 font-weight-normal">Recycle your used empty bottles and be rewarded!</p>
+                <span class="mb-3">For the past 10 years, we have collected over 800,000 bottles through Empty Bottle Recycling Campaign and planted more than 860 pine trees for a better environment.For the past 10 years, we have collected over 800,000 bottles through Empty Bottle Recycling Campaign and planted more than 860 pine trees for a better environment.</span>
+                <p><a href="#" class="h6 text-secondary">查看更多</a></p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div class="container-fluid footer-subscribe">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-4">
+                        <h3 class="text-info mb-8">記得 <br>訂閱以獲取更多資訊！</h3>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Your email address" aria-label="emailAddress"
+                                aria-describedby="button-addon">
+                            <div class="input-group-append">
+                                <button class="btn btn-primary px-4 py-3" type="button" id="button-addon">Subscribe</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-primary">
+            <div class="container">
+                <div class="row py-8">
+                    <div class="col-12 col-md-8 d-flex align-items-center px-0">
+                        <a href="index.html"><img class="mr-2 mr-md-8 img-fluid" src="img/d’Perfumew.png" alt=""></a>
+                        <small class="text-white">© 2020. All Rights Reserved.</small>
+                    </div>
+                    <ul class="col-md-4 d-none d-lg-flex justify-content-end list-unstyled align-items-center mb-0 footer-list">
+                        <li><a href="product.html" class="text-white">Product</a></li>
+                        <li><a href="#" class="text-white">Blog</a></li>
+                        <li><a href="#" class="text-white">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+</html>

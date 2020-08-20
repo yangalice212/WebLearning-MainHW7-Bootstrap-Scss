@@ -1,0 +1,12 @@
+@mixin hide-text {
+    text-indent: 110%;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+}
+
+@mixin img-set {
+    max-width: 100%;
+	height: auto;
+	display: block;
+}

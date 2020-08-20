@@ -1,0 +1,34 @@
+.mypage{
+    li{
+        &:nth-child(1){
+            a{
+                border-bottom: 2px solid $primary;
+            }
+        }
+        a{
+            display: inline;
+            border-bottom: 2px solid transparent;
+            &:hover{
+                border-bottom: 2px solid $primary;
+                transition: border 0.6s linear;
+            }
+        }
+    }
+    .text-code{
+        color: #A5A5A5;
+    }
+    ::placeholder{
+        color: $grayUser;
+    }
+    .newPass2{
+        @include media-breakpoint-down(sm){
+            padding-left: 4px;
+        }
+    }
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: no-repeat url("data:image/svg+xml;utf8,<svg fill='gray' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-position: 100% 5px;
+}

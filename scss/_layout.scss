@@ -1,0 +1,111 @@
+h1{
+    a{
+        @include hide-text;
+    }
+}
+
+.logo{
+    background: no-repeat center url(../img/d’Perfume.png);
+}
+
+.navbar{
+    justify-content: space-between;
+    .mobile-cart{
+        display: none;
+        position: relative;
+        .cart-num{
+            font-size: 12px;
+            width: 16px;
+            height: 16px;
+            position: absolute;
+            top: -20%;
+            left: 70%;
+            border-radius: 7px;
+        }
+        @include media-breakpoint-down(md){
+            display: initial;
+        }
+    }
+}
+
+.banner{
+    background: no-repeat center url(../img/banner.png);
+    background-size: cover;
+    height: 870px;
+    h2{
+        @include media-breakpoint-down(xs){
+            font-size: 32px;
+        }
+    }
+    .row{
+        height: 870px;
+        align-items: center;
+        @include media-breakpoint-down(xs){
+            height: 480px;
+            align-items: flex-start;
+        }
+    }
+    @include media-breakpoint-down(xs){
+        background: no-repeat url(../img/banner-pad.png);
+        background-size: cover;
+        height: 480px;
+    }
+    &-text{
+        h3{
+            @include media-breakpoint-down(xs){
+                font-size: 32px;
+            }
+        }
+        p{
+            max-width: 445px;
+            @include media-breakpoint-down(xs){
+                font-size: 20px;
+            }
+        }
+        
+    }
+    button{
+        border: 2px solid white;
+        border-radius: 30px;
+        padding: 10px 100px;
+        font-size: 24px;
+        @include media-breakpoint-down(xs){
+            font-size: 20px;
+        }
+    }
+}
+
+.product-nav{
+    margin-bottom: 80px;
+}
+
+.footer{
+    &-subscribe{   
+        background: no-repeat center url(../img/footer-banner.png);
+        background-size: cover;
+        height: 600px;
+        h3{
+            margin-top: 312px;
+            font-weight: bold;
+        }
+        input{
+            height: auto;
+            border: 2px solid $primary;
+        }
+        ::-webkit-input-placeholder{
+            color: $info;
+        }
+        @include media-breakpoint-down(xs){
+            background: no-repeat url(../img/footer-banner-pad.png);
+            background-size: cover;
+            height: 600px;
+        }
+    }
+    &-list{
+        li{
+            &:nth-child(1), &:nth-child(2){
+                margin-right: 32px;
+            }
+        }
+    }
+}
