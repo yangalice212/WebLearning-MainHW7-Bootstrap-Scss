@@ -165,9 +165,9 @@
     .card {
       // Flexbugs #4: https://github.com/philipwalton/flexbugs#flexbug-4
       flex: 1 0 0%;
-      margin-right: $card-deck-margin;
+      margin-right: 0;
       margin-bottom: 0; // Override the default
-      margin-left: $card-deck-margin;
+      margin-left: 0;
     }
   }
 }
