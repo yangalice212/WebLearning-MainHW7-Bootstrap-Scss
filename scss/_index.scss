@@ -1,15 +1,4 @@
 .product{
-    img{
-        @include media-breakpoint-down(lg){
-            width: 100%;
-        }
-    }
-    &-img{
-        text-align: right;
-        @include media-breakpoint-down(lg){
-            text-align: left;
-        }
-    }
     &-info{
         button{
             border: 2px solid black;
@@ -31,5 +20,5 @@
     }
     img{
         opacity: 0.5;
-    }
+    } 
 }

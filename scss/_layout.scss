@@ -22,7 +22,7 @@ h1{
             left: 70%;
             border-radius: 7px;
         }
-        @include media-breakpoint-down(md){
+        @include media-breakpoint-down(sm){
             display: initial;
         }
     }
@@ -85,7 +85,6 @@ h1{
         background-size: cover;
         height: 600px;
         h3{
-            margin-top: 312px;
             font-weight: bold;
         }
         input{
@@ -100,6 +99,9 @@ h1{
             background-size: cover;
             height: 600px;
         }
+    }
+    &-distance{
+        margin-bottom: 112px;
     }
     &-list{
         li{
