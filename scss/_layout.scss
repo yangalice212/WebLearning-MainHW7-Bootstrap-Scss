@@ -75,18 +75,11 @@ h1{
     }
 }
 
-.product-nav{
-    margin-bottom: 80px;
-}
-
 .footer{
     &-subscribe{   
         background: no-repeat center url(../img/footer-banner.png);
         background-size: cover;
         height: 600px;
-        h3{
-            font-weight: bold;
-        }
         input{
             height: auto;
             border: 2px solid $primary;
@@ -98,16 +91,6 @@ h1{
             background: no-repeat url(../img/footer-banner-pad.png);
             background-size: cover;
             height: 600px;
-        }
-    }
-    &-distance{
-        margin-bottom: 112px;
-    }
-    &-list{
-        li{
-            &:nth-child(1), &:nth-child(2){
-                margin-right: 32px;
-            }
         }
     }
 }

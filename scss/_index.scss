@@ -1,4 +1,40 @@
 .product{
+    &-img1{
+        background: no-repeat url(../img/chanel.png);
+        background-size: cover;
+        width: 100%;
+        padding-top: 50%;
+        @include media-breakpoint-down(sm){
+            padding-top: 100%;
+        }
+    }
+    &-img2{
+        background: no-repeat url(../img/five.png);
+        background-size: cover;
+        width: 100%;
+        padding-top: 50%;
+        @include media-breakpoint-down(sm){
+            padding-top: 100%;
+        }
+    }
+    &-img3{
+        background: no-repeat url(../img/chanelN.png);
+        background-size: cover;
+        width: 100%;
+        padding-top: 50%;
+        @include media-breakpoint-down(sm){
+            padding-top: 100%;
+        }
+    }
+    &-img4{
+        background: no-repeat url(../img/info.png);
+        background-size: cover;
+        width: 100%;
+        padding-top: 100%;
+        @include media-breakpoint-down(sm){
+            padding-top: 200%;
+        }
+    }
     &-info{
         button{
             border: 2px solid black;

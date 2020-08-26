@@ -18,7 +18,7 @@
   &:hover {
     z-index: 2;
     color: $pagination-hover-color;
-    text-decoration: none;
+    text-decoration: underline;
     background-color: $pagination-hover-bg;
     border-color: $pagination-hover-border-color;
   }

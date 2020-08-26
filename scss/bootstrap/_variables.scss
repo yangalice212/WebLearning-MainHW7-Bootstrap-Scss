@@ -144,6 +144,20 @@ $enable-deprecation-messages:                 true !default;
 $spacer: 1rem !default;
 $spacers: () !default;
 $spacers: map-merge(
+  // (
+  //   0: 0,
+  //   1: ($spacer * .25), //4
+  //   2: ($spacer * .5), //8
+  //   3: $spacer,
+  //   4: ($spacer * 1.5), //24
+  //   5: ($spacer * 3), //48
+  //   6: ($spacer * 3.75), //60
+  //   7: 40px, //40
+  //   8: 20px, //20
+  //   9: 52px, //52
+  //   10: 32px,
+  //   11: 28px
+  // ),
   (
     0: 0,
     1: ($spacer * .25), //4
@@ -152,11 +166,17 @@ $spacers: map-merge(
     4: ($spacer * 1.5), //24
     5: ($spacer * 3), //48
     6: ($spacer * 3.75), //60
-    7: 40px, //40
-    8: 20px, //20
-    9: 52px, //52
-    10: 32px,
-    11: 28px
+    12: 12px,
+    40: 40px, //40
+    20: 20px, //20
+    52: 52px, //52
+    54: 54px,
+    32: 32px,
+    28: 28px,
+    80: 80px,
+    112: 112px,
+    82: 82px,
+    106: 106px
   ),
   $spacers
 );

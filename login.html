@@ -28,23 +28,31 @@
                 </button>
             </div>
     
-            <div class="collapse navbar-collapse col-md-6 justify-content-end" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse col-md-7 justify-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav d-flex">
-                    <li class="nav-item d-flex align-items-center mr-10">
-                        <i class="fas fa-tshirt text-info"></i>
-                        <a class="nav-link text-info" href="product.html">Product</a>
+                    <li class="nav-item d-flex align-items-center mr-4">
+                        <a class="nav-link text-info" href="product.html">
+                            <i class="fas fa-tshirt text-info mr-1"></i>
+                            Product
+                        </a>
                     </li>
-                    <li class="nav-item d-flex align-items-center mr-10">
-                        <i class="fas fa-user text-info"></i>
-                        <a class="nav-link text-info" href="login.html">log&nbspin</a>
+                    <li class="nav-item d-flex align-items-center mr-4">
+                        <a class="nav-link text-info" href="login.html">
+                            <i class="fas fa-user text-info mr-1"></i>
+                            log&nbspin
+                        </a>
                     </li>
-                    <li class="nav-item d-flex align-items-center mr-10">
-                        <i class="fas fa-heart text-info"></i>
-                        <a class="nav-link text-info" href="#">Wishlist</a>
+                    <li class="nav-item d-flex align-items-center mr-4">
+                        <a class="nav-link text-info mr-1" href="#">
+                            <i class="fas fa-heart text-info"></i>
+                            Wishlist
+                        </a>
                     </li>
                     <li class="nav-item d-flex align-items-center">
-                        <i class="fas fa-shopping-cart text-info"></i>
-                        <a class="nav-link text-info" href="#">Cart(3)</a>
+                        <a class="nav-link text-info" href="#">
+                            <i class="fas fa-shopping-cart text-info mr-1"></i>
+                            Cart(3)
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -71,7 +79,7 @@
         </ul>
     </div>
 
-    <div class="container-fluid bg-primary d-none d-lg-flex product-nav">
+    <div class="container-fluid bg-primary d-none d-lg-flex">
         <div class="container">
             <div class="row">
                 <ul class="nav col d-flex list-unstyled">
@@ -87,12 +95,12 @@
     </div>
     
     <!-- 客製化開始 -->
-    <div class="container login">
+    <div class="container login mt-lg-40 mb-106 mb-md-54">
         <div class="row align-items-center">
-            <div class="col-12 col-lg-8">
-                <img class="img-fluid" src="img/login.png" alt="">
+            <div class="col-12 col-md-8">
+                <img class="img-fluid mt-40 mb-28" src="img/login.png" alt="">
             </div>
-            <div class="col-12 col-lg-4">
+            <div class="col-12 col-md-4">
                 <h2 class="font-weight-bold">Log in</h2>
                 <form>
                     <div class="form-group">
@@ -104,11 +112,11 @@
                         <label for="InputPassword">密碼</label>
                         <input type="password" class="form-control" id="InputPassword" placeholder="Password">
                     </div>
-                    <div class="d-flex justify-content-between align-items-center btn">
+                    <div class="d-flex justify-content-between align-items-center btn mt-32 p-0">
                         <a class="text-primary font-weight-bold" href="">忘記密碼</a>
                         <div>
-                            <button class="btn-sign btn-primary" type="button">註冊</button>
-                            <button class="btn-primary" onclick="location.href='mypage.html'" type="button">登入</button>
+                            <button class="btn btn-outline-primary" type="button">註冊</button>
+                            <button class="btn btn-primary" onclick="location.href='mypage.html'" type="button">登入</button>
                         </div>
                     </div>
                     
@@ -118,20 +126,18 @@
     </div>
     <!-- 客製化結束 -->
 
-    <div class="footer">
-        <div class="container-fluid bg-primary">
-            <div class="container">
-                <div class="row py-8">
-                    <div class="col-12 col-md-8 d-flex align-items-center px-0">
-                        <a href="index.html"><img class="mr-2 mr-md-8 img-fluid" src="img/d’Perfumew.png" alt=""></a>
-                        <small class="text-white">© 2020. All Rights Reserved.</small>
-                    </div>
-                    <ul class="col-md-4 d-none d-lg-flex justify-content-end list-unstyled align-items-center mb-0 footer-list">
-                        <li><a href="product.html" class="text-white">Product</a></li>
-                        <li><a href="#" class="text-white">Blog</a></li>
-                        <li><a href="#" class="text-white">Contact</a></li>
-                    </ul>
+    <div class="container-fluid bg-primary">
+        <div class="container">
+            <div class="row py-20">
+                <div class="col-12 col-md-8 d-flex align-items-center px-0">
+                    <a href="index.html"><img class="mr-2 mr-md-20 img-fluid" src="img/d’Perfumew.png" alt=""></a>
+                    <small class="text-white">© 2020. All Rights Reserved.</small>
                 </div>
+                <ul class="col-md-4 d-none d-lg-flex justify-content-end align-items-center list-unstyled mb-0">
+                    <li><a href="product.html" class="text-white mr-32">Product</a></li>
+                    <li><a href="#" class="text-white mr-32">Blog</a></li>
+                    <li><a href="#" class="text-white">Contact</a></li>
+                </ul>
             </div>
         </div>
     </div>

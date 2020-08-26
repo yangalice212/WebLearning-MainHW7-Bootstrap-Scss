@@ -29,23 +29,31 @@
                 </button>
             </div>
     
-            <div class="collapse navbar-collapse col-md-6 justify-content-end" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse col-md-7 justify-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav d-flex">
-                    <li class="nav-item d-flex align-items-center mr-10">
-                        <i class="fas fa-tshirt text-info"></i>
-                        <a class="nav-link text-info" href="product.html">Product</a>
+                    <li class="nav-item d-flex align-items-center mr-4">
+                        <a class="nav-link text-info" href="product.html">
+                            <i class="fas fa-tshirt text-info mr-1"></i>
+                            Product
+                        </a>
                     </li>
-                    <li class="nav-item d-flex align-items-center mr-10">
-                        <i class="fas fa-user text-info"></i>
-                        <a class="nav-link text-info" href="login.html">log in</a>
+                    <li class="nav-item d-flex align-items-center mr-4">
+                        <a class="nav-link text-info" href="login.html">
+                            <i class="fas fa-user text-info mr-1"></i>
+                            log&nbspin
+                        </a>
                     </li>
-                    <li class="nav-item d-flex align-items-center mr-10">
-                        <i class="fas fa-heart text-info"></i>
-                        <a class="nav-link text-info" href="#">Wishlist</a>
+                    <li class="nav-item d-flex align-items-center mr-4">
+                        <a class="nav-link text-info mr-1" href="#">
+                            <i class="fas fa-heart text-info"></i>
+                            Wishlist
+                        </a>
                     </li>
                     <li class="nav-item d-flex align-items-center">
-                        <i class="fas fa-shopping-cart text-info"></i>
-                        <a class="nav-link text-info" href="#">Cart(3)</a>
+                        <a class="nav-link text-info" href="#">
+                            <i class="fas fa-shopping-cart text-info mr-1"></i>
+                            Cart(3)
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -72,7 +80,7 @@
         </ul>
     </div>
 
-    <div class="container-fluid bg-primary d-none d-xl-flex product-nav">
+    <div class="container-fluid bg-primary d-none d-lg-flex mb-80">
         <div class="container">
             <div class="row">
                 <ul class="nav col-7 d-flex list-unstyled">
@@ -88,10 +96,10 @@
     </div>
 
     <!-- 客製化開始 -->
-    <div class="container mypage mt-10">
+    <div class="container mypage mt-32">
         <div class="row">
-            <div class="col-12 col-xl-2 mb-10">
-                <h5 class="d-none d-xl-flex text-grayMy mb-8">會員中心</h5>
+            <div class="col-12 col-xl-2 mb-32">
+                <h5 class="d-none d-xl-flex text-grayMy mb-20">會員中心</h5>
                 <ul class="nav d-flex flex-xl-column justify-content-between">
                     <li class="nav-item mb-3">
                         <a class="nav-link text-grayMy px-0 pb-0 active" href="mypage.html">會員資料修改</a>
@@ -107,7 +115,7 @@
 
             <div class="col-12 col-xl-10">
                 <div class="row flex-row-reverse">
-                    <div class="col-12 col-xl-4 mb-7">
+                    <div class="col-12 col-xl-4 mb-40">
                         <div class="d-flex align-items-center mb-4">
                             <i class="fas fa-user text-black mr-1"></i>
                             <h6 class="mb-0 mr-1 text-grayUser">會員編號</h6>
@@ -141,20 +149,20 @@
                         <hr class="mt-2 border-grayUser">
 
                         <form action="mypage.html">
-                            <div class="form-group row mb-8">
+                            <div class="form-group row mb-20">
                                 <label for="staticEmail" class="col-3 col-sm-2 col-form-label text-grayUser pr-0">會員帳號</label>
                                 <div class="col-9 col-sm-7">
                                     <input type="text" readonly class="form-control-plaintext text-grayUser" id="staticEmail"
                                         value="email@example.com">
                                 </div>
                             </div>
-                            <div class="form-group row mb-8">
+                            <div class="form-group row mb-20">
                                 <label for="inputPassword" class="col-3 col-sm-2 col-form-label text-grayUser pr-0">會員密碼</label>
                                 <div class="col-9 col-sm-7">
                                     <input type="password" class="form-control" id="inputPassword" placeholder="Password">
                                 </div>
                             </div>
-                            <div class="form-group row mb-8">
+                            <div class="form-group row mb-20">
                                 <label for="inputSex" class="col-3 col-sm-2 col-form-label text-grayUser pr-0">會員性別</label>
                                 <div class="col-3 col-sm-2">
                                     <select id="inputSex" class="form-control">
@@ -163,13 +171,13 @@
                                     </select>
                                 </div>
                             </div>
-                            <div class="form-group row mb-8">
+                            <div class="form-group row mb-20">
                                 <label for="inputEmail" class="col-3 col-sm-2 col-form-label text-grayUser pr-0">電子信箱</label>
                                 <div class="col-9 col-sm-7">
                                     <input type="text" class="form-control" id="inputEmail" placeholder="email@example.com">
                                 </div>
                             </div>
-                            <div class="form-group row mb-8">
+                            <div class="form-group row mb-20">
                                 <label for="inputPhone" class="col-3 col-sm-2 col-form-label text-grayUser pr-0">手機號碼</label>
                                 <div class="col-9 col-sm-7">
                                     <input type="text" class="form-control" id="inputPhone">
@@ -179,7 +187,7 @@
                                 <div class="form-group row mb-2">
                                     <label for="inputConAddr" class="col-3 col-sm-2 col-form-label text-grayUser pr-0">聯絡地址</label>
                                     <div class="col-6 col-md-3 pr-md-1">
-                                        <select id="inputState" class="form-control">
+                                        <select id="inputConAddr" class="form-control">
                                             <option selected>台灣及離島</option>
                                             <option>台灣</option>
                                             <option>離島</option>
@@ -189,14 +197,14 @@
                                 <div class="form-group row mb-2">
                                     <div class="col-3 col-sm-2"></div>
                                     <div class="col-3 col-md-3 pr-0 pr-sm-1">
-                                        <select id="inputState" class="form-control">
+                                        <select id="inputConAddr" class="form-control">
                                             <option selected>高雄市</option>
                                             <option>台北市</option>
                                             <option>新北市</option>
                                         </select>
                                     </div>
                                     <div class="col-3 col-md-3 pl-0 pl-sm-1">
-                                        <select id="inputState" class="form-control">
+                                        <select id="inputConAddr" class="form-control">
                                             <option selected>鹽埕區</option>
                                             <option>中正區</option>
                                         </select>
@@ -222,7 +230,7 @@
                                 <div class="form-group row mb-2">
                                     <label for="inputAddr" class="col-3 col-sm-2 col-form-label text-grayUser pr-0">配送地址</label>
                                     <div class="col-6 col-md-3 pr-md-1">
-                                        <select id="inputState" class="form-control">
+                                        <select id="inputAddr" class="form-control" id="inputAddr">
                                             <option selected>台灣及離島</option>
                                             <option>台灣</option>
                                             <option>離島</option>
@@ -232,14 +240,14 @@
                                 <div class="form-group row mb-2">
                                     <div class="col-3 col-sm-2"></div>
                                     <div class="col-3 col-md-3 pr-0 pr-sm-1">
-                                        <select id="inputState" class="form-control">
+                                        <select id="inputAddr" class="form-control" id="inputAddr">
                                             <option selected>高雄市</option>
                                             <option>台北市</option>
                                             <option>新北市</option>
                                         </select>
                                     </div>
                                     <div class="col-3 col-md-3 pl-0 pl-sm-1">
-                                        <select id="inputState" class="form-control">
+                                        <select id="inputAddr" class="form-control" id="inputAddr">
                                             <option selected>鹽埕區</option>
                                             <option>中正區</option>
                                         </select>
@@ -255,7 +263,7 @@
                             <div class="form-group row mb-5">
                                 <div class="col-3 col-sm-2"></div>
                                 <div class="col-6 col-sm-4">
-                                    <button class="text-white bg-primary px-10 btn" type="button">確定修改</button>
+                                    <button class="text-white bg-primary px-32 btn" type="button">確定修改</button>
                                 </div>
                             </div>
                         </form>
@@ -264,7 +272,7 @@
                         <hr class="mt-2 border-grayUser">
 
                         <form action="">
-                            <div class="form-group row mb-8">
+                            <div class="form-group row mb-20">
                                 <label for="inputOldPass" class="col-3 col-sm-2 col-form-label text-grayUser">舊密碼</label>
                                 <div class="col-9 col-sm-7">
                                     <input type="password" class="form-control" id="inputOldPass">
@@ -285,7 +293,7 @@
                             <div class="form-group row mb-6">
                                 <div class="col-3 col-sm-2"></div>
                                 <div class="col-6 col-sm-4">
-                                    <button class="text-white bg-primary px-10 btn" type="button">變更密碼</button>
+                                    <button class="text-white bg-primary px-32 btn" type="button">變更密碼</button>
                                 </div>
                             </div>
                         </form>
@@ -296,21 +304,18 @@
     </div>
     <!-- 客製化結束 -->
 
-    <div class="footer">
-        <div class="container-fluid bg-primary">
-            <div class="container">
-                <div class="row py-8">
-                    <div class="col-12 col-md-8 d-flex align-items-center px-0">
-                        <a href="index.html"><img class="mr-2 mr-md-8 img-fluid" src="img/d’Perfumew.png" alt=""></a>
-                        <small class="text-white">© 2020. All Rights Reserved.</small>
-                    </div>
-                    <ul
-                        class="col-md-4 d-none d-lg-flex justify-content-end list-unstyled align-items-center mb-0 footer-list">
-                        <li><a href="product.html" class="text-white">Product</a></li>
-                        <li><a href="#" class="text-white">Blog</a></li>
-                        <li><a href="#" class="text-white">Contact</a></li>
-                    </ul>
+    <div class="container-fluid bg-primary">
+        <div class="container">
+            <div class="row py-20">
+                <div class="col-12 col-md-8 d-flex align-items-center px-0">
+                    <a href="index.html"><img class="mr-2 mr-md-20 img-fluid" src="img/d’Perfumew.png" alt=""></a>
+                    <small class="text-white">© 2020. All Rights Reserved.</small>
                 </div>
+                <ul class="col-md-4 d-none d-lg-flex justify-content-end align-items-center list-unstyled mb-0">
+                    <li><a href="product.html" class="text-white mr-32">Product</a></li>
+                    <li><a href="#" class="text-white mr-32">Blog</a></li>
+                    <li><a href="#" class="text-white">Contact</a></li>
+                </ul>
             </div>
         </div>
     </div>
